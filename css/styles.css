@@ -48,9 +48,10 @@
 }
 
 .container {
+    padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1128px;
+    width: 1158px;
 }
 
 /* outline: 2px solid tomato; */
@@ -266,12 +267,6 @@
 
 /* What are we doing */
 
-.work {
-    width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .work .flex {
     display: flex;
     flex-wrap: wrap;
@@ -339,6 +334,7 @@
     line-height: 1.11;
 }
 .team-list .text {
+    margin: 0;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -347,6 +343,7 @@
 }
 
 .team-list .paragraph {
+    margin: 0;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -367,6 +364,12 @@
 
 .team-list .item:nth-child(4n) {
     margin-right: 0;
+}
+
+.team-list .item .img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Button */
@@ -435,6 +438,13 @@
 }
 
 .footer-paragraph {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: auto;
+    margin-right: 1020px;
+    margin-left: auto;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -500,19 +510,20 @@
 }
 
 .row-list .frame {
-    margin: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 54px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
+
 
 .row-list .title {
     font-family: 'Roboto';
     font-style: normal;
     margin: 0;
+    margin-bottom: 8px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -529,7 +540,6 @@
     line-height: 1.5;
 }
 
-/* margin-bottom: 32px; */
 
 .row-list .item {
     width: 360px;
@@ -543,6 +553,12 @@
 
 .row-list .item:nth-last-child(-n + 3) {
     
+}
+
+.row-list .item .img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
